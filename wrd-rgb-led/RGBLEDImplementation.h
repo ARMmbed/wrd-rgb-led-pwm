@@ -30,9 +30,9 @@ public:
      * @details Pin configurations are pulled from Yotta config.
      */
     RGBLEDImplementation()
-        :   red(YOTTA_CFG_HARDWARE_WEARABLE_REFERENCE_DESIGN_RGB_LED_RED_PWM_PIN),
-            green(YOTTA_CFG_HARDWARE_WEARABLE_REFERENCE_DESIGN_RGB_LED_GREEN_PWM_PIN),
-            blue(YOTTA_CFG_HARDWARE_WEARABLE_REFERENCE_DESIGN_RGB_LED_BLUE_PWM_PIN)
+        :   red(YOTTA_CFG_HARDWARE_WRD_RGB_LED_RED_PWM_PIN),
+            green(YOTTA_CFG_HARDWARE_WRD_RGB_LED_GREEN_PWM_PIN),
+            blue(YOTTA_CFG_HARDWARE_WRD_RGB_LED_BLUE_PWM_PIN)
     { }
 
     /**
